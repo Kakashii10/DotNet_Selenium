@@ -19,10 +19,42 @@ namespace ConsoleApp4
         }
 
         [Test]
-        public void IsPrime_InputIs1_ReturnFalse()
+        public void IsPrime_InputIs1_ReturnFalse1()
         {
 
             Console.WriteLine("shdsjdhs",driver);
+            driver.Quit();
+        }
+
+        [Test]
+        public void IsPrime_InputIs1_ReturnFalse2()
+        {
+
+            Console.WriteLine("shdsjd231s", driver);
+            driver.Quit();
+        }
+
+        [Test]
+        public void IsPrime_InputIs1_ReturnFalse3()
+        {
+
+            Console.WriteLine("shdsjdhs1", driver);
+            driver.Quit();
+        }
+
+        [Test]
+        public void IsPrime_InputIs1_ReturnFalse4()
+        {
+
+            Console.WriteLine("shds453jdhs", driver);
+            driver.Quit();
+        }
+
+        [Test]
+        public void IsPrime_InputIs1_ReturnFalse5()
+        {
+
+            Console.WriteLine("shd756sjdhs", driver);
             driver.Quit();
         }
     }
