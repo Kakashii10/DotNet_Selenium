@@ -19,6 +19,7 @@ namespace ConsoleApp4
         }
 
         [Test]
+        [Category("Smoke")]        
         public void IsPrime_InputIs1_ReturnFalse1()
         {
 
@@ -27,6 +28,7 @@ namespace ConsoleApp4
         }
 
         [Test]
+        [Category("Regression")]
         public void IsPrime_InputIs1_ReturnFalse2()
         {
 
@@ -35,6 +37,7 @@ namespace ConsoleApp4
         }
 
         [Test]
+        [Category("Smoke")]
         public void IsPrime_InputIs1_ReturnFalse3()
         {
 
@@ -43,6 +46,7 @@ namespace ConsoleApp4
         }
 
         [Test]
+        [Category("Smoke")]
         public void IsPrime_InputIs1_ReturnFalse4()
         {
 
@@ -51,6 +55,7 @@ namespace ConsoleApp4
         }
 
         [Test]
+        [Category("Regression")]
         public void IsPrime_InputIs1_ReturnFalse5()
         {
 
