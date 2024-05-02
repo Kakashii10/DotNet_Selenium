@@ -46,7 +46,7 @@ namespace ConsoleApp4
         }
 
         [Test]
-        [Category("Smoke")]
+        [Category("Sanity")]
         public void IsPrime_InputIs1_ReturnFalse4()
         {
 
